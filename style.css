@@ -10,14 +10,19 @@
 .a:hover{
     color: hsl(171, 66%, 44%);
 }
-.fa-solid fa-earth-americas fa-2x{
-    color: hsl(171, 66%, 44%);
+.bg{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    
 }
+
+
 footer{
     position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  
 
     
     background-color:  hsl(200, 14%, 96%);
@@ -31,6 +36,7 @@ footer{
     margin:20px;
     float: left;
     margin-left: 150px;
+
 }
 .but{
     float:left;
@@ -40,11 +46,14 @@ footer{
 .sv{
     float: left;
     margin-left: 1100px;
+
+    
 }
 
 
 .b {
     text-align: center;
+    padding-bottom: 50px;
 
 }
 .h{
@@ -101,10 +110,10 @@ footer{
 }
 .div2{
     display: inline-block;
-    float: right;
+    margin:left;
     border: 1px;
     margin-top: 40px;
-    margin-right: 350px;
+    margin-left: 100px;
 
 }
 .d{
@@ -159,6 +168,8 @@ footer{
 .photo{
     height:100px;
     margin:20px;
+    width: 1440px;
+
 }
 .google{
     float:left;   margin:20px;
@@ -188,11 +199,131 @@ footer{
      margin-right: 100px;
     
 }
+.j{
+    text-align: center;
+}
 
-@media only screen and (min-device-width : 370px) and (max-device-width : 1440px) {
+@media (max-width : 375px)  {
+    .body{
+        display: block;
+    }
+    
+    .bg{
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        display: block;
+        width: 375px;
+        
+    }
+    
+   .im{
+        margin-left: 100px;
+    
 
-}   
+
+    }
+    .b{
+        display: block;
+    
+    }
+    .h{
+        text-align: center;
+        font-weight: 200px;
+        color: hsl(210, 10%, 33%);
+     
+
+    }
+    .p{
+        text-align: center;
+        font-weight: 100px;
+        color:hsl(201, 11%, 66%); 
+
+
+    }  
+    .q{
+        width: 375px;
+        display: block;
+    }
+    .div0{
+        border: 1px;
+        display: block;
+        width: 370px;
+    }
+    .div1{
+        display: block;
+        border: 1px;
+        margin-left: 50px;
+    
+    }
+    .div2{
+       
+        width: 370px;
+        display: block;
+        margin-left: 80px;
+       
+
+    }
+    .k{
+        width: 250px;
+    }
+    .z{
+        width: 250px; 
+        margin-left: 50px;
+    }
+    .wageh{
+        width: 375px; 
+        float:left;
+        height:200px;
+        margin: 20px;
+        text-align: center;
+       
+    }
+    .mohamed{
+        text-align: center;
+        width: 375px;
+    }
+    .sallam{
+        text-align: center;
+        width: 375px;
+    }
+    .google{
+        margin:20px;
+        text-align: center;
+        display: block;
+
+        
+    
+    }
+    .photo{
+        width: 375px;
+        display: block;
+        
+    }
+    
+    .but{
+        display: block;
+        margin-left: 50px;
+    
+    }
+    .sv{
+       display: block;
+        margin-left: 50px;
+        padding-top: 30px;
+        
+        
+    }
+    .j{
+        width: 375px;
+        margin-left: 150px;
+        margin: bottom;
+
+    }
+
+
+}
+
 
     
     
+
   
