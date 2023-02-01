@@ -11,7 +11,7 @@
     color: hsl(171, 66%, 44%);
 }
 .bg{
-    background-image: url(images/bg-header-desktop.png);
+    background-image: url(bg-header-desktop.png);
     background-size: cover;
     
 }
@@ -209,7 +209,7 @@ footer{
     }
     
     .bg{
-        background-image: url(images/bg-header-mobile.png);
+        background-image: url(bg-header-mobile.png);
         background-size: cover;
         display: block;
         width: 375px;
