@@ -1,329 +1,150 @@
-
-.a{
-   border: none; 
- 
-   background-color:hsl(200, 14%, 96%);
-
-
-
-}
-.a:hover{
-    color: hsl(171, 66%, 44%);
-}
-.bg{
-    background-image: url(bg-header-desktop.png);
-    background-size: cover;
-    
-}
-
-
-footer{
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  
-
-    
-    background-color:  hsl(200, 14%, 96%);
-
-}
 .big{
-    margin:20px;
-    width: 100%;  
-}
-.images{
-    margin:20px;
-    float: left;
-    margin-left: 150px;
-
-}
-.but{
-    float:left;
-    margin-left: 300px;
-
-}
-.sv{
-    float: left;
-    margin-left: 1100px;
-
+    display: flex;
     
 }
+span{
+    display: flex;
+}
 
 
-.b {
-    text-align: center;
-    padding-bottom: 50px;
+.first{
+    background-color:white;
+    margin-left: 300px;
+    margin-right: 150px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 800px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.second{
+    background-color: hsl(179, 48%, 43%);
+    margin-left: 300px;
+    
+    line-height: 20px;
+    border-radius: 0px 0px 0px 10px;
+    width: 355px;
+    
+    
+}
+.third{
+    background-color: hsl(179, 62%, 43%) ;
+    margin-right: 150px;
+   
+    width: 445px;
+    line-height: 20px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#a{
+    color:  hsl(179, 62%, 43%);
+    margin-left: 40px;
+
 
 }
-.h{
-    text-align: center;
-    font-weight: 600px;
-    color: hsl(210, 10%, 33%);
-     
+#b{
+    color: hsl(71, 73%, 54%);
+    margin-left: 40px;
+}
+#c{
+    color:hsl(218, 22%, 67%);
 
+   margin-left: 40px;
+   
+    
 }
-.p{
-    text-align: center;
-    font-weight: 400px;
-    color:hsl(201, 11%, 66%); 
-}
-.o{
-    background-color:hsl(171, 66%, 44%) ;
-    border-radius: 30px;
+.x{
     color: white;
-    border: none;
-    background-size: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.y{
+    color: white;
+    margin-left: 40px;
+}
+.z{
+    color: hsl(222, 10%, 80%);
+    margin-left: 40px;
 }
 .m{
-    background-color:hsl(233, 100%, 69%) ;
-    border-radius: 200px;
+  
+    color:hsl(204, 43%, 93%);
+    margin-left: 40px;
+
+}
+button{
+    background-color: hsl(71, 73%, 54%) ;
     color: white;
-    border:none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-
-}
-
-
-.im{
-    margin-left: 650px;
-    
-
-}
-.div0{
-    border: 1px;
-}
-.div1{
-    display: inline-block;
-    border: 1px;
-
-}
-.div2{
-    display: inline-block;
-    margin:left;
-    border: 1px;
-    margin-top: 40px;
-    margin-left: 100px;
-
-}
-.d{
-    font-weight: 600px;
-    color: hsl(210, 10%, 33%); 
-}
-.e{
-    font-weight: 400px;
-    color:hsl(201, 11%, 66%);  
-}
- 
-
-.z{
-    margin-left: 350px;
-}
-.wageh{
-    width: 400px; 
-    float:left;
-    height:200px;
-    margin:20px;
-    text-align: center;
-    margin-left: 100px;
-}
-.mohamed{
-    width: 400px; 
-    float:left;
-    height:200px;
-     margin:20px;
-    text-align: center; 
-}
-
-.sallam{
-    width: 400px; 
-    float:left;
-    height:200px;
-     margin:20px;
-    text-align: center; 
-}
-.manar h1{
-    font-weight: 600px;
-    color: hsl(210, 10%, 33%);
-}
-.manar p{
-    font-weight: 400px;
-    color:hsl(201, 11%, 66%); 
-}
-.manar{
-    
-    height:200px;
-     margin:20px;
-}
-.photo{
-    height:100px;
-    margin:20px;
-    width: 1440px;
-
-}
-.google{
-    float:left;   margin:20px;
-    margin-left: 130px;
-    margin-right: 50px;
-
-}
-.ibm{
-     float:left;   margin:20px;
-     margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 40px;
     
 }
-.microsoft{
-     float:left;  margin:20px;
-     margin-left: 50px;
-     margin-right: 50px;
+.g{
+    color: white;
+    margin-left: 40px;
+    padding-top: 50px;
 }
-.hp{ float:left;  margin:20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+.h{
+    color: hsl(204, 43%, 93%);
+    margin-left: 40px;
 }
-.vector{
-     float:left;   margin:20px;
-     margin-left: 50px;
-     margin-right: 100px;
-    
+body{
+    background-color:hsl(204, 43%, 93%);
 }
-.j{
-    text-align: center;
-}
-
-@media (max-width : 375px)  {
-    .body{
+@media (max-width : 375px){
+    .big1{
         display: block;
+
+
     }
+    .first{
+        background-color:white;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        width: 320px;
+        padding-bottom: 10px;
+        border-radius: 10px 10px 0px 0px;
+        line-height: 30px;
     
-    .bg{
-        background-image: url(bg-header-mobile.png);
-        background-size: cover;
-        display: block;
-        width: 375px;
+    }
+    .second{
+        background-color: hsl(179, 48%, 43%); 
+        line-height: 20px;
+        width: 320px;
+        margin-left: 20px;
+        margin-right: 100px;
+        padding-bottom: 10px;
+        border-radius: 0px;
+        padding-top: 10px;
         
-    }
-    
-   .im{
-        margin-left: 100px;
-    
-
-
-    }
-    .b{
-        display: block;
-    
-    }
-    .h{
-        text-align: center;
-        font-weight: 200px;
-        color: hsl(210, 10%, 33%);
-     
-
-    }
-    .p{
-        text-align: center;
-        font-weight: 100px;
-        color:hsl(201, 11%, 66%); 
-
-
-    }  
-    .q{
-        width: 375px;
-        display: block;
-    }
-    .div0{
-        border: 1px;
-        display: block;
-        width: 370px;
-    }
-    .div1{
-        display: block;
-        border: 1px;
-        margin-left: 50px;
-    
-    }
-    .div2{
        
-        width: 370px;
-        display: block;
-        margin-left: 80px;
-       
-
     }
-    .k{
-        width: 250px;
+    .third{
+        background-color: hsl(179, 62%, 43%) ;
+        width: 320px;
+        line-height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        border-radius: 0px 0px 10px 10px;
+        padding-top: 10px;
+       
+    }
+    .big{
+        display: block;
+        
     }
     .z{
-        width: 250px; 
-        margin-left: 50px;
+        color: hsl(222, 10%, 80%);
+        margin-left: 40px;
     }
-    .wageh{
-        width: 375px; 
-        float:left;
-        height:200px;
-        margin: 20px;
-        text-align: center;
-       
-    }
-    .mohamed{
-        text-align: center;
-        width: 375px;
-    }
-    .sallam{
-        text-align: center;
-        width: 375px;
-    }
-    .google{
-        margin:20px;
-        text-align: center;
-        display: block;
-
-        
-    
-    }
-    .photo{
-        width: 375px;
-        display: block;
-        
-    }
-    
-    .but{
-        display: block;
-        margin-left: 50px;
-    
-    }
-    .sv{
-       display: block;
-        margin-left: 50px;
-        padding-top: 30px;
-        
-        
-    }
-    .j{
-        width: 375px;
-        margin-left: 150px;
-        margin: bottom;
-
-    }
-
 
 }
-
-
-    
-    
-
-  
