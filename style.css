@@ -1,150 +1,66 @@
-.big{
-    display: flex;
+.hide{
+    display: none;
+}
+
+.tasks , .backup_tasks {
+    width: 260px;
     
-}
-span{
-    display: flex;
-}
-
-
-.first{
     background-color:white;
-    margin-left: 300px;
-    margin-right: 150px;
-    margin-top: 150px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    width: 800px;
-    border-radius: 10px 10px 0px 0px;
-   
+    padding: 10px 50px;
+    margin-left: 470px;
 }
-.second{
-    background-color: hsl(179, 48%, 43%);
-    margin-left: 300px;
-    
-    line-height: 20px;
-    border-radius: 0px 0px 0px 10px;
-    width: 355px;
-    
-    
-}
-.third{
-    background-color: hsl(179, 62%, 43%) ;
-    margin-right: 150px;
-   
-    width: 445px;
-    line-height: 20px;
-    border-radius: 0px 0px 10px 0px;
+.tasks p , .backup_tasks p{
+    width: 250px;
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: 1px solid white;
 }
 
-#a{
-    color:  hsl(179, 62%, 43%);
-    margin-left: 40px;
-
-
-}
-#b{
-    color: hsl(71, 73%, 54%);
-    margin-left: 40px;
-}
-#c{
-    color:hsl(218, 22%, 67%);
-
-   margin-left: 40px;
-   
+.actions{
+    display: inline-block;
+    position: relative;
     
-}
-.x{
-    color: white;
-    margin-left: 40px;
-    padding-top: 50px;
-}
-.y{
-    color: white;
-    margin-left: 40px;
-}
-.z{
-    color: hsl(222, 10%, 80%);
-    margin-left: 40px;
-}
-.m{
-  
-    color:hsl(204, 43%, 93%);
-    margin-left: 40px;
-
-}
-button{
-    background-color: hsl(71, 73%, 54%) ;
-    color: white;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 8px;
-    border: none;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    
-}
-.g{
-    color: white;
-    margin-left: 40px;
-    padding-top: 50px;
-}
-.h{
-    color: hsl(204, 43%, 93%);
-    margin-left: 40px;
+    margin-left: 470px;
+    margin-bottom: 30px;
 }
 body{
-    background-color:hsl(204, 43%, 93%);
+    background-color: red;
 }
-@media (max-width : 375px){
-    .big1{
-        display: block;
-
-
-    }
-    .first{
-        background-color:white;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 10px;
-        width: 320px;
-        padding-bottom: 10px;
-        border-radius: 10px 10px 0px 0px;
-        line-height: 30px;
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.task_input{
     
-    }
-    .second{
-        background-color: hsl(179, 48%, 43%); 
-        line-height: 20px;
-        width: 320px;
-        margin-left: 20px;
-        margin-right: 100px;
-        padding-bottom: 10px;
-        border-radius: 0px;
-        padding-top: 10px;
-        
-       
-    }
-    .third{
-        background-color: hsl(179, 62%, 43%) ;
-        width: 320px;
-        line-height: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 20px;
-        border-radius: 0px 0px 10px 10px;
-        padding-top: 10px;
-       
-    }
-    .big{
-        display: block;
-        
-    }
-    .z{
-        color: hsl(222, 10%, 80%);
-        margin-left: 40px;
-    }
+  background: white;
+  border: 0;
+  color: black;
+  padding: 20px;
+  min-width: 320px;
+
+
+}
+.btn{
+    position: absolute;
+    background: white;
+    border: 0;
+    padding: 15px;
+    cursor:pointer;
+    right: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+.clear{
+    margin-left: 470px;
+    width: 360px;
+    text-align: right;
+    background: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
 
 }
