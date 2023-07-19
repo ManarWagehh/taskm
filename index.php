@@ -38,14 +38,6 @@ $css_file = 'style.css';
 </table>
 
 
-<a href="add_employee.php">Add Employee</a>
-<a href="logout.php">logout</a>
 
 
-<?php 
-include_once('./includes/template/footer.php');
 
-
-  header('location:signin.php');
-
-?>
