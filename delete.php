@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(isset($_SESSION['name'])){
+
     
-require_once('./init.php');
+
 
 if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'GET'){
     if(isset($_GET['emp_id'])){
@@ -10,7 +10,3 @@ if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'GET'){
     }
 }
 
-
-}else{
-    header('location:signin.php');
-  }
